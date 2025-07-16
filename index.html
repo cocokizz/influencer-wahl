@@ -98,7 +98,7 @@
         
         li {
              margin-bottom: 0.75rem;
-             padding-left: 1.5rem;
+             padding-left: 2rem;
              position: relative;
         }
         li::before {
@@ -274,9 +274,21 @@
         .goals-card h3, .risks-card h3 {
             margin-top: 0;
         }
+        
+        .strategy-overview-card ol li::before,
         .risks-card ol li::before {
             content: counter(list-item);
-            background-color: #ef4444; /* red-500 */
+            background-color: var(--primary-accent);
+            color: var(--bg-dark);
+            font-weight: bold;
+            border-radius: 50%;
+            width: 1.5rem;
+            height: 1.5rem;
+            display: inline-block;
+            text-align: center;
+            line-height: 1.5rem;
+            position: absolute;
+            left: 0;
         }
 
         /* --- Budget Section --- */
@@ -385,7 +397,7 @@
                         <div class="influencer-details">
                             <h3>Diana zur Löwen</h3>
                             <p class="meta">Cluster: <strong>Premium & Performance</strong> (Persona: Dr. Lena Hauser)</p>
-                            <p class="meta">Plattformen: <span>Instagram (~1 Mio.)</span>, <span>LinkedIn (~135.000)</span></p>
+                            <p class="meta">Plattformen: <a href="https://www.instagram.com/dianazurloewen/" target="_blank" rel="noopener noreferrer"><span>Instagram (~1 Mio.)</span></a>, <a href="https://www.linkedin.com/in/dianazurloewen/" target="_blank" rel="noopener noreferrer"><span>LinkedIn (~135.000)</span></a></p>
                             <p class="meta">Typ: <span>Makro-Influencerin</span> | Geschätzte ER: <span>1.5-2.5%</span></p>
                             <h4>Warum passt sie?</h4>
                             <p>Diana zur Löwen ist eine etablierte Unternehmerin, Investorin und eine starke Stimme für Wirtschaftsthemen. Sie verkörpert Erfolg, Professionalität und modernen Luxus – genau die Werte unserer Performer-Zielgruppe. Ihre Community ist gebildet, karriereorientiert und an hochwertigen Produkten interessiert. Eine Kooperation, z.B. zur Vorstellung eines neuen BMW i5, wäre authentisch und würde unsere Kompetenz im Premium-Segment unterstreichen.</p>
@@ -398,7 +410,7 @@
                         <div class="influencer-details">
                             <h3>"Familie M."</h3>
                             <p class="meta">Cluster: <strong>Moderner Mainstream</strong> (Persona: Markus Weber)</p>
-                            <p class="meta">Plattformen: <span>YouTube (~230.000)</span>, <span>Instagram (~70.000)</span></p>
+                            <p class="meta">Plattformen: <a href="https://www.youtube.com/@FamilieM." target="_blank" rel="noopener noreferrer"><span>YouTube (~230.000)</span></a>, <a href="https://www.instagram.com/familie.m/" target="_blank" rel="noopener noreferrer"><span>Instagram (~70.000)</span></a></p>
                             <p class="meta">Typ: <span>Makro-Influencer</span> | Geschätzte ER: <span>3-5%</span></p>
                             <h4>Warum passt er?</h4>
                             <p>Dieser Kanal zeigt authentisches Familienleben. Der "Vater" ist ein sympathischer, nahbarer Charakter, der wie Markus Weber den Alltag mit Kindern und Haus meistert. Seine Community vertraut seinen Empfehlungen. Eine Langzeit-Kooperation, bei der er einen Familien-Van (z.B. Skoda Enyaq) über Monate im Alltag testet und darüber berichtet, würde enormes Vertrauen und Glaubwürdigkeit für unsere pragmatische Zielgruppe schaffen.</p>
@@ -411,7 +423,7 @@
                         <div class="influencer-details">
                             <h3>AlexiBexi</h3>
                             <p class="meta">Cluster: <strong>Innovation & Lifestyle</strong> (Persona: Tim Köhler)</p>
-                            <p class="meta">Plattformen: <span>YouTube (~1,5 Mio.)</span>, <span>Instagram (~450.000)</span></p>
+                            <p class="meta">Plattformen: <a href="https://www.youtube.com/@AlexiBexi" target="_blank" rel="noopener noreferrer"><span>YouTube (~1,5 Mio.)</span></a>, <a href="https://www.instagram.com/alexibexi/" target="_blank" rel="noopener noreferrer"><span>Instagram (~450.000)</span></a></p>
                             <p class="meta">Typ: <span>Makro-Influencer</span> | Geschätzte ER: <span>4-8% (YT)</span></p>
                             <h4>Warum passt er?</h4>
                             <p>AlexiBexi ist einer der bekanntesten und glaubwürdigsten Tech-YouTuber Deutschlands. Er kann auf YouTube das "Was" und "Wie" unserer Technologie glaubwürdig erklären, während er Instagram für persönlichere Einblicke nutzt. Diese Multi-Kanal-Präsenz ermöglicht es uns, die Zielgruppe über die gesamte Customer Journey zu begleiten und passt exzellent zur technik-affinen Seite unserer Persona Tim Köhler.</p>
@@ -522,4 +534,3 @@
     </script>
 </body>
 </html>
-
